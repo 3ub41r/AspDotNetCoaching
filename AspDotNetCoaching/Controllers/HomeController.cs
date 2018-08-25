@@ -10,6 +10,8 @@ namespace AspDotNetCoaching.Controllers
     {
         public ActionResult Index()
         {
+            var aNumber = int.Parse("abc");
+
             return View();
         }
 
